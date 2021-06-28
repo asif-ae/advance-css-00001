@@ -51,7 +51,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .heading-primary {
@@ -142,4 +142,8 @@ body {
 .btn-white {
   background-color: white;
   color: #777;
+}
+
+.text-center {
+  text-align: center;
 }
