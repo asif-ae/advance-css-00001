@@ -1,0 +1,22 @@
+{
+  "name": "advance-css-00001",
+  "version": "1.0.0",
+  "description": "Natours project with Sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asif-ae/advance-css-00001.git"
+  },
+  "author": "Asif Estiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asif-ae/advance-css-00001/issues"
+  },
+  "homepage": "https://github.com/asif-ae/advance-css-00001#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
