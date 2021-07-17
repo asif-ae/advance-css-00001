@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* changed default font size to 10px */
+  font-size: .625rem;
+
+  /* Set default box sizing to border box */
+  box-sizing: border-box;
+}
