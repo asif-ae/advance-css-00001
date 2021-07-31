@@ -41,6 +41,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
+  letter-spacing: .2rem;
   background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
 
   // Color Transparent
@@ -50,6 +51,14 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
+
+  // Transition styles
+  transition: all .2s;
+
+  &:hover {
+    transform: skewX(10deg) skewY(2deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
 }
 
 /* Text Center (Global) */
