@@ -36,6 +36,22 @@ body {
   }
 }
 
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+
+  // Color Transparent
+  color: transparent;
+
+  // Background Clip
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
 /* Text Center (Global) */
 .text-center {
   text-align: center;
