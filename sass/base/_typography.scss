@@ -61,6 +61,19 @@ body {
   }
 }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.pragraph {
+  font-size: 1.6rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
 /* Text Center (Global) */
 .text-center {
   text-align: center;

@@ -88,6 +88,16 @@ body {
     transform: skewX(10deg) skewY(2deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.pragraph {
+  font-size: 1.6rem; }
+  .pragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
 /* Text Center (Global) */
 .text-center {
   text-align: center; }
@@ -95,7 +105,13 @@ body {
 .u-center-text {
   text-align: center; }
 
-.u-margin-bottom-8 {
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
   margin-bottom: 8rem; }
 
 /* Button Styles */
@@ -141,6 +157,13 @@ body {
     /* Add Keyframes for Animation */
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px; }
 
 .row {
   margin: 0 auto;
