@@ -53,6 +53,16 @@
     }
   }
 
+  /* Green Button Styles */
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   /* Animated Button */
   &--animated {
     /* Add Keyframes for Animation */
